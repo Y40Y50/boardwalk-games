@@ -16,9 +16,14 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 .sub-heading-color {
     color: var(--highlight-color);
+}
+.section {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 /* navbar */
 #navbar {
@@ -27,6 +32,10 @@ h1, h2, h3 {
 #navbar .logo {
     width: 35px;
     filter: brightness(0) invert(1);
+}
+/* header */
+#header .lead {
+    font-family: var(--secondary-font);
 }
 /* .container ,.row {
     border: 2px solid black;
