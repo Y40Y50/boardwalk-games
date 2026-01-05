@@ -16,7 +16,13 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    
+}
+h1, h2 {
     text-transform: uppercase;
+}
+h2 {
+    margin-bottom: 2rem;
 }
 .sub-heading-color {
     color: var(--highlight-color);
@@ -37,6 +43,15 @@ h1, h2, h3 {
 #header .lead {
     font-family: var(--secondary-font);
 }
+/*services section */
+#services .card-footer {
+    font-weight: bold;
+    font-family: var(--highlight-color);
+    background-color: transparent;
+}
+#services .card {
+    margin-bottom: 1.5rem;
+}
 /* .container ,.row {
     border: 2px solid black;
 }
@@ -44,3 +59,26 @@ h1, h2, h3 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 200px;
+    }
+    
+}
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 220px;
+    }
+    
+}@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 200px;
+    }
+    
+}
