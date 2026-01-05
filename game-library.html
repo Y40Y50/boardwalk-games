@@ -204,6 +204,62 @@
                 </div>
             </div>
         </section>
+        <section id="booking-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center text-xl-start">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+                            <h2 class="display-6">favorites games</h2>
+                            <p class="my-4">
+                                Thank you for choosing to reserve a spot at Boardwalk Games! Please
+                                fill out the form below with your details and preferred event. A
+                                member of our team will call you back as soon as possible to confirm
+                                your booking and answer any questions you may have.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="container section">
+            <form action="success.html" method="get">
+                <div class="row col-xl-12">
+                    <div class="col-12 col-xl-4 mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input class="form-control" id="name" name="name" type="text" required>
+                    </div>
+                    <div class="col-12 col-xl-4 mb-3">
+                        <label for="phone" class="form-label">Phone number</label>
+                        <input class="form-control" id="phone" name="phone" type="number" required>
+                    </div>
+                    <div class="col-12 col-xl-4 mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input class="form-control" id="email" name="email" type="email" required>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-3">
+                        <label for="event-type" class="form-label">Select Game</label>
+                        <select id="event-type" class="form-select" name="event-type" required>
+                            <option value="" selected>Select Game</option>
+                            <option value="regular-play">Reserve a table</option>
+                            <option value="dnd">Dungeons & Dragons</option>
+                            <option value="retro-night">Retro Game Night</option>
+                            <option value="tournament">Tournament</option>
+                            <option value="kids-party">Kids party</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-3">
+                        <label for="requested-date" class="form-label">Requested date</label>
+                        <input type="date" class="form-control" id="requested-date" name="requested_date" required>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn custom-button-outline">Submit</button>
+                </div>
+
+                
+            </form>
+        </section>
 
     </main>
     <!-- mt-auto add to push footer to the bottom of the page-->
